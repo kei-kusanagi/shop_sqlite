@@ -20,7 +20,7 @@ class CartItem {
       required this.quantity});
 
   get totalPrice {
-    quantity * price;
+    return quantity * price;
   }
 
   Map<String, dynamic> toMap() {

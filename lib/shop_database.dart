@@ -55,4 +55,19 @@ class ShopDatabase {
       );
     });
   }
+
+  Future<int> delete(int id) async {
+    final db = await instance.database;
+    return db.delete(
+      tableCartItems,
+      where: "id = ?",
+      whereArgs: [id],
+    );
+  }
+
+  Future<int> update(CartItem item) async {
+    final db = await instance.database;
+    return await db.update(tableCartItems, item.toMap(),
+        where: "id=?", whereArgs: [item.id]);
+  }
 }
