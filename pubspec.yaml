@@ -1,0 +1,30 @@
+name: shop_sqlite
+description: App para practicar SQLite en flutter, simulando un carrito de compras
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0-186.0.dev <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  sqflite: ^2.2.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/laptopgamer.jpg
