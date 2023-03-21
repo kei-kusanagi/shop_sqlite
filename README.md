@@ -2,7 +2,8 @@
 
 App para practicar SQLite en flutter, simulando un carrito de compras
 
-![shoping_cart_AdobeExpress](https://user-images.githubusercontent.com/93227096/226694818-e8d84d13-a407-451d-a738-fb4256025192.gif)
+![shop_sqlite](https://user-images.githubusercontent.com/93227096/226702161-df2a7867-996b-4894-a60a-e5eb56734ac9.gif)
+
 
 ## Getting Started
 
